@@ -34,7 +34,7 @@ Desktop pets are computer programs that simulate the presence and behavior of re
 
 ### Software development process
 
-In this software, the software development process we applied is **agile**
+In this software, the software development process we applied is **agile**.
 
 ### Reason why chose this
 
@@ -48,7 +48,64 @@ Our target market is **all computer users**
 
 ### Development Process
 
-The development process is **agile**
+#### Feasibility analysis
+
+1. Investment feasibility : Desktop pets occupy less memory and can be sold on any platform, so it has a good investment value.
+
+2. Funding Feasibility : From the perspective of stakeholders, the funding for developing Desktop Pets is relatively low.
+
+3. Organizational feasibility : Planning complete project planning, staffing of the development team, holding regular meetings for discussion, allowing team members to have good communication, so as to promote the goal of parallel cooperation among team members, and ultimately ensure that the project can be delivered on time.
+
+4. Economic feasibility : Many people want to have a small pet to relieve boredom when they are bored, which can provide people with a happiness index in life. At the same time, it increases the selling point of the software and is more profitable.
+
+5. Legal feasibility : The research and development of desktop pets did not violate any laws, and the research and development of desktop pets did not infringe anyone's interests.
+
+6. Technical feasibility : The development of desktop pets is relatively simple, so the technical requirements for developers are not high, and the development can be easily completed. It is mainly necessary to design how to have more functions that can be implemented on desktop pets, so that users can get a better experience.
+
+#### Design
+
+1. start()
+Create the initial diagram.
+Sets the initial position of the transparent form.
+Modify the taskbar icon.
+
+2. handle()
+The Settings click generates an action.
+If an action is not completed, no new action is allowed.
+
+3. lxhBehavior()
+Corresponding to the relative coordinates of the click Luo Xiaohei.
+
+4. biuBehavior()
+The relative coordinates of the clicked biou.
+
+5. loadImg()
+Click on the site to load the image.
+
+6. mainImg()
+The main diagram, which is responsible for the default state and exit actions.
+
+7. run()
+Click to interrupt other actions.
+
+8. setTray(Stage stage)
+Add the system tray.
+
+9. switchPet()
+Switch pets.
+
+10. end()
+Show the animation when exiting the program.
+
+11. addMessageBox()
+Add a chat bubble.
+
+12. run()
+Use multithreading to implement the function of "automatic walking", "self-amusement" and "broken thoughts" through random time intervals.
+
+#### Process Planing
+
+Double click to start, there is no set rule. You can do whatever you want, and the whole point of Luo Xiaohei and Petius is to keep the player entertained. Switching pets, automatic walking, and other functions need to open the system tray to achieve.
 
 ### Members (Roles & Responsibilities)
 
@@ -90,7 +147,20 @@ Week 7 & Week 8 : Conduct user testing and collect feedback for improvement to e
 
 ### Algorithm
 
+1. Automatic walking
+Perform the "walk by yourself" function -- walk horizontally. It is not enabled by default because users may only want their pets to be left in peace. Stop if you're about to reach the edge of the screen.
 
+2. Entertain yourself
+Perform the "amuse yourself" function -- do random actions in your spare time. So you don't have to be limited by the number of parts, and you don't have to make your pet look stiff. It is not enabled by default because users may only want their pets to be left in peace. gifID is determined by the number of images in an image folder with an undefined purpose and the number of actions that have been set.
+
+3. Switch pets
+Users can freely switch between Luo Xiaohei and Biu according to their own desire. The pictures will switch, but the pet action will not stop. And after the completion of the action to restore the main picture is still the previous pet, until the next action to perform normal. The reason is that those three functions pass old petID when they call listn.loadimg().
+
+4. broken thoughts
+Display a conversation bubble above the pet. It is not enabled by default because users may not want to be disturbed. Choose what to say at random. Since there are currently only two pets, you can use the triadic operator.
+
+5. Execute at random time
+Use multithreading to implement the function of "automatic walking", "self-amusement" and "broken thoughts" through random time intervals.
 
 ### Current status of software
 
@@ -102,7 +172,7 @@ In the future, we will continue to **maintain** and **improve** our software so 
 
 ## Demo
 
-[Demo](https://baidu.com/)
+[Demo](https://youtu.be/TGDG7L3Jc34/)
 
 ## Environments of the software development and running
 
