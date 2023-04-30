@@ -23,13 +23,12 @@ Desktop pets are computer programs that simulate the presence and behavior of re
   - Programming language
   - Minimum Hardware requirements
   - Minimum Software requirements
-+ Declaration
 
 ## Graphical Abstract
 
-<picture>
-
-</picture>
+![Desktop pets](https://raw.githubusercontent.com/DCarchimonde/DeskPets/main/Pet/bin/lxh/%E7%BD%97%E5%B0%8F%E9%BB%910.gif)
+![Desktop pets](https://raw.githubusercontent.com/DCarchimonde/DeskPets/main/Pet/bin/biu/biu0.gif)
+![Desktop pets](https://raw.githubusercontent.com/DCarchimonde/DeskPets/main/Graphical%20Abstract/system%20tray.png)
 
 ## Purpose of the software
 
@@ -83,7 +82,11 @@ Elliott : Responsible for testing the software to ensure the quality of the prod
 
 ### Schedule
 
+Week 1 & Week 2 : Plan and collect data, analyze software requirements, and possible difficulties in the development process. Define the software market, target customers, project success rate, and current public needs. Consider time, cost and performance etc.
 
+Week 3 to Week 6 : The design and development officially started. During the development process, everyone held meetings to discuss how to cooperate with each other and work in parallel. Design user interface, write software code, etc.
+
+Week 7 & Week 8 : Conduct user testing and collect feedback for improvement to ensure the best quality of the software and fix known bugs and issues
 
 ### Algorithm
 
@@ -118,10 +121,6 @@ Storage : 1GB available space
 ### Minimum Software requirements
 
 Software requirement : JavaFX
-
-## Declaration
-
-
 
 ## Back to top
 [Back to top](#top)
