@@ -4,31 +4,31 @@ Desktop pets are computer programs that simulate the presence and behavior of re
 
 ## Table of Content
 
-+ Introduction
-+ Table of Content
-+ Graphical Abstract
-+ Purpose of the software
-  - Software development process
-  - Reason why chose this
-  - Target market 
-+ Software development plan
-  - Development Process
-  - Members (Roles & Responsibilities)
-  - Schedule
-  - Algorithm
-  - Current status of software
-  - Future plan
-+ Demo
-+ Environments of the software development and running
-  - Programming language
-  - Minimum Hardware requirements
-  - Minimum Software requirements
++ [Introduction](https://github.com/JackLam99/DeskPets#desktop-pets-luoxiaohei--biu-)
++ [Table of Content](https://github.com/JackLam99/DeskPets#table-of-content)
++ [Graphical Abstract](https://github.com/JackLam99/DeskPets#graphical-abstract)
++ [Purpose of the software](https://github.com/JackLam99/DeskPets#purpose-of-the-software)
+  - [Software development process](https://github.com/JackLam99/DeskPets#software-development-process)
+  - [Reason why chose this](https://github.com/JackLam99/DeskPets#reason-why-chose-this)
+  - [Target market ](https://github.com/JackLam99/DeskPets#target-market)
++ [Software development plan](https://github.com/JackLam99/DeskPets#software-development-plan)
+  - [Development Process](https://github.com/JackLam99/DeskPets#development-process)
+  - [Members (Roles & Responsibilities)](https://github.com/JackLam99/DeskPets#members-roles--responsibilities)
+  - [Schedule](https://github.com/JackLam99/DeskPets#schedule)
+  - [Algorithm](https://github.com/JackLam99/DeskPets#algorithm)
+  - [Current status of software](https://github.com/JackLam99/DeskPets#current-status-of-software)
+  - [Future plan](https://github.com/JackLam99/DeskPets#future-plan)
++ [Demo](https://github.com/JackLam99/DeskPets#demo)
++ [Environments of the software development and running](https://github.com/JackLam99/DeskPets#environments-of-the-software-development-and-running)
+  - [Programming language](https://github.com/JackLam99/DeskPets#programming-language)
+  - [Minimum Hardware requirements](https://github.com/JackLam99/DeskPets#minimum-hardware-requirements)
+  - [Minimum Software requirements](https://github.com/JackLam99/DeskPets#minimum-software-requirements)
 
 ## Graphical Abstract
 
-![Desktop pets](https://raw.githubusercontent.com/DCarchimonde/DeskPets/main/Pet/bin/lxh/%E7%BD%97%E5%B0%8F%E9%BB%910.gif)
-![Desktop pets](https://raw.githubusercontent.com/DCarchimonde/DeskPets/main/Pet/bin/biu/biu0.gif)
-![Desktop pets](https://raw.githubusercontent.com/DCarchimonde/DeskPets/main/Graphical%20Abstract/system%20tray.png)
+![Desktop pets](https://raw.githubusercontent.com/JackLam99/DeskPets/main/Pet/bin/lxh/%E7%BD%97%E5%B0%8F%E9%BB%910.gif)
+![Desktop pets](https://raw.githubusercontent.com/JackLam99/DeskPets/main/Pet/bin/biu/biu0.gif)
+![Desktop pets](https://raw.githubusercontent.com/JackLam99/DeskPets/main/Graphical%20Abstract/system%20tray.png)
 
 ## Purpose of the software
 
@@ -103,6 +103,8 @@ Add a chat bubble.
 12. run()
 Use multithreading to implement the function of "automatic walking", "self-amusement" and "broken thoughts" through random time intervals.
 
+![Desktop pets](https://raw.githubusercontent.com/JackLam99/DeskPets/main/Graphical%20Abstract/operation%20flow%20chart.jpg)
+
 #### Process Planing
 
 Double click to start, there is no set rule. You can do whatever you want, and the whole point of Luo Xiaohei and Petius is to keep the player entertained. Switching pets, automatic walking, and other functions need to open the system tray to achieve.
@@ -111,7 +113,15 @@ Double click to start, there is no set rule. You can do whatever you want, and t
 
 #### Contributors
 
-@@@@@
+@JackLam99
+
+@DCarchimonde
+
+@
+
+@
+
+@
 
 #### Roles
 
